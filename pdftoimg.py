@@ -1,9 +1,7 @@
 import fitz
 i=0;
 kontinu=True;
-print("""|   Converting PDF to multiple PNG files
-|   
-|   using python(+fitz)""")
+print("""|   Converting PDF to multiple PNG files using python(+fitz)""")
 while(kontinu):
     files=input("PDF filenames (without .pdf): ")
     document=fitz.open("./"+files+".pdf")
